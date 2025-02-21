@@ -18,7 +18,7 @@ body {
 
 /* Header styling */
 header {
-    background: url("https://api.deepai.org/job-view-file/204d0203-8f21-47c9-93d7-3a490b0ec749/outputs/output.jpg");
+    background: url("images/sky.jpg");
     font-family: verdana;
     background-size: 100%;
     background-color: #a0d4e4;
