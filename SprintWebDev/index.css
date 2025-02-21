@@ -18,7 +18,7 @@ body {
 
 /* Header styling */
 header {
-    background: url("https://api.deepai.org/job-view-file/29636415-8557-4e8c-9a4a-7da5f474930b/outputs/output.jpg");
+    background: url("https://api.deepai.org/job-view-file/204d0203-8f21-47c9-93d7-3a490b0ec749/outputs/output.jpg");
     font-family: verdana;
     background-size: 100%;
     background-color: #a0d4e4;
@@ -32,7 +32,7 @@ header {
 
 /* Navigation styling */
 nav {
-    background-color: #7aa85b;
+    background-color: #b9b46a;
     padding: 10px 0;
 }
 
