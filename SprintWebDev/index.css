@@ -7,9 +7,10 @@
 
 /* Body styling */
 body {
-    font-family: arial;
+    font-family:monospace;
     background-color: #e8f5e9;
-    background: url("images/body.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+            url("images/body.jpg");
     background-size: 100% 100%;
     
     color: #2e7d32;
@@ -25,15 +26,14 @@ header {
     color: rgb(3, 109, 21);
     text-align: center;
     padding: 20px;
-    margin-bottom: 20px; /* Add space below header */
     font-size: 120%;
     text-shadow: 1px 1px grey;
 }
 
 /* Navigation styling */
 nav {
-    background-color: #b9b46a;
-    padding: 10px 0;
+    background-color: rgba(66, 201, 62, .5);
+    padding: 15px 0;
 }
 
 nav ul {
@@ -48,9 +48,10 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(3, 109, 21);
     font-weight: bold;
     padding: 10px;
+    font-size: 23px;
 }
 
 nav ul li a:hover {
@@ -68,21 +69,29 @@ main {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    padding: 4rem 0;
+    justify-content: space-around;
 }
 
 /* Image styling for section */
 .section-content img {
-    width: 35%; /* Image takes up 35% of the space */
-    border: 4px solid #42c93e; /* Green border around the image */
-    border-radius: 8px;
-    margin-left: 10px; /* Space between image and text */
-    margin-right: 20px;
-    margin-top: 20px;
+    width: 40%; /* Image takes up 35% of the space */
+    border-radius: 50%;
+}
+
+.section-image-height {
+    height: 60vh;
+}
+
+.section-content h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Ensure text is on the left side by adjusting its width */
 .text-content {
-    width: 60%; /* Text takes up 60% of the space */
+    /* width: 60%; Text takes up 60% of the space */
     padding: 20px; /* Add padding inside the box */
     border: 2px solid #42c93e; /* Green border around text box */
     border-radius: 8px; /* Rounded corners */
@@ -90,10 +99,21 @@ main {
     margin-right: 30px;
     margin-top: 20px;
     background-color: rgb(237, 255, 216);
+    box-shadow: 12px 12px 2px 1px rgba(66, 201, 62, .2);
+
+    width: 30%;
 }
 
 .text-content h2 {
     margin-bottom: 10px; /* Space below the heading */
+}
+
+.text-content p {
+    font-size: 1rem;
+}
+
+.divider {
+    border-top: 3px solid rgb(3, 109, 21);
 }
 
 /* Styling for the image row */
@@ -105,9 +125,8 @@ main {
 
 .image-container {
     width: 30%; /* Each image container takes 30% of the row */
-   
-    padding: 5px; /* Padding inside each container */
     border-radius: 8px; /* Rounded corners for the container */
+    padding: 7rem .3125rem;
     
 }
 
@@ -115,15 +134,30 @@ main {
     width: 100%; /* Make images fill their container */
     border-radius: 8px; /* Rounded corners for the images */
     box-shadow: 1px 1px grey;
+    height: 40vh;
 }
 
 /* Footer styling */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #b9b46a;
-    color: white;
-    position: fixed;
+.footer {
+    padding: 1.5rem 0;
+    background-color: rgba(66, 201, 62, .5);;
     width: 100%;
     bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22rem;
+}
+
+.footer-socials { 
+    margin: auto 5rem;
+}
+
+.footer-socials-image {
+    width: 20%;
+    height: 4vh;
+}
+
+.footer-back-image {
+    width: 20%;
 }
