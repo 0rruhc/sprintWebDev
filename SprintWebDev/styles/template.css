@@ -25,9 +25,27 @@ header {
     background-color: #a0d4e4;
     color: rgb(3, 109, 21);
     text-align: center;
-    padding: 20px;
+    padding: 10px 0;
     font-size: 120%;
     text-shadow: 1px 1px grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22.5rem;
+}
+
+header a {
+    width: 10%;
+}
+
+.header-logo {
+    width: 70%;
+    cursor: pointer;
+}
+
+.header-logo:hover {
+    background-color: #45a049;
+    border-radius: 4px;
 }
 
 /* Navigation styling */
