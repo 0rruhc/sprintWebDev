@@ -1,0 +1,94 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family:monospace;
+    background-color: #e8f5e9;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+            url("images/body.jpg");
+    background-size: 100% 100%;
+    
+    color: #2e7d32;
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background: url("images/sky.jpg");
+    font-family: verdana;
+    background-size: 100%;
+    background-color: #a0d4e4;
+    color: rgb(3, 109, 21);
+    text-align: center;
+    padding: 20px;
+    font-size: 120%;
+    text-shadow: 1px 1px grey;
+}
+
+/* Navigation styling */
+nav {
+    background-color: rgba(66, 201, 62, .5);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(3, 109, 21);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 23px;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+    border-radius: 4px;
+}
+
+/* Main section styling */
+main {
+    padding: 20px;
+}
+
+.divider {
+    border-top: 3px solid rgb(3, 109, 21);
+}
+
+/* Footer styling */
+.footer {
+    padding: 1.5rem 0;
+    background-color: rgba(66, 201, 62, .5);
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22rem;
+}
+
+.footer-socials { 
+    margin: auto 5rem;
+}
+
+.footer-socials-image {
+    width: 20%;
+    height: 4vh;
+}
+
+.footer-back-image {
+    width: 20%;
+}

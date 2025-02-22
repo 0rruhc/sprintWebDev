@@ -1,4 +1,4 @@
-/* Reset default margin and padding */
+/* Reset default margin and padding
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
 }
 
 /* Body styling */
-body {
+/* body {
     font-family:monospace;
     background-color: #e8f5e9;
     background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
@@ -15,10 +15,10 @@ body {
     
     color: #2e7d32;
     line-height: 1.6;
-}
+} */
 
 /* Header styling */
-header {
+/* header {
     background: url("images/sky.jpg");
     font-family: verdana;
     background-size: 100%;
@@ -28,10 +28,10 @@ header {
     padding: 20px;
     font-size: 120%;
     text-shadow: 1px 1px grey;
-}
+} */
 
 /* Navigation styling */
-nav {
+/* nav {
     background-color: rgba(66, 201, 62, .5);
     padding: 15px 0;
 }
@@ -57,12 +57,12 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #45a049;
     border-radius: 4px;
-}
+} */
 
 /* Main section styling */
-main {
+/* main {
     padding: 20px;
-}
+} */
 
 /* Flexbox for section content */
 .section-content {
@@ -138,9 +138,9 @@ main {
 }
 
 /* Footer styling */
-.footer {
+/* .footer {
     padding: 1.5rem 0;
-    background-color: rgba(66, 201, 62, .5);;
+    background-color: rgba(66, 201, 62, .5);
     width: 100%;
     bottom: 0;
     display: flex;
@@ -160,4 +160,4 @@ main {
 
 .footer-back-image {
     width: 20%;
-}
+} */
